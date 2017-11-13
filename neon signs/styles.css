@@ -1,0 +1,236 @@
+@font-face { 
+font-family: 'neon';
+src: url('assets/ebneon.otf') format('opentype');
+} 
+
+html{
+	
+	background: black;
+	
+}
+
+
+.sign {
+
+ width: 100vw;
+ height: 100vh;
+ vertical-align: bottom;
+ line-height: 120vh;
+ font-family: 'neon';
+ font-size: 900%;
+ text-align: center;
+ 
+ box-shadow: inset 30px 30px 300px black;
+
+ 
+}
+
+.sign img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+}
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+ 	color: black; 
+	font-size: 20px;
+ 	margin: 0;
+ 	font-family: Arial, Sans-serif;
+	overflow: hidden;
+}
+
+.player {
+	border: 1px solid green;
+  display: none;
+}
+
+.blue {
+	background: DeepSkyBlue;
+}
+
+.red {
+	background: Red;
+}
+
+.orange {
+	background: orange;
+}
+
+.green {
+	background: greenYellow;
+}
+
+.purple {
+	background: MediumOrchid;
+}
+
+.pink {
+	background: hotPink;
+}
+
+.yellow {
+	background: gold;
+}
+
+.white {
+	background: linear-gradient( to right, azure, AntiqueWhite);
+}
+
+.redBlue{
+  background: linear-gradient( to right, red, DeepSkyBlue); /* Standard syntax */
+}
+
+.redWhite{
+  background: linear-gradient( to right, red, aliceblue); /* Standard syntax */
+}
+
+.redGreen{
+  background: linear-gradient( to right, red, greenYellow); /* Standard syntax */
+}
+
+.redOrangeBlue{
+  background: linear-gradient( to right, red, orange, DeepSkyBlue);
+}
+
+.whiteRed{
+  background: linear-gradient( to right, aliceblue, red);
+}
+
+.black{
+  background-color: mediumpurple;
+}
+
+.greenRed{
+  background: linear-gradient( to right, greenyellow, red);
+}
+
+.redOrangeGreenBlue{
+  background: linear-gradient( to right, red, orange, greenyellow, deepSkyBlue);
+}
+
+.redOrange{
+  background: linear-gradient( to right, red, orange); /* Standard syntax */
+}
+
+.whiteRedBlue{
+  background: linear-gradient( to right, aliceblue, red, deepSkyBlue); /* Standard syntax */
+}
+
+.redOrange{
+  background: linear-gradient( to right, red, orange);
+}
+
+.blueRed{
+  background: linear-gradient( to right, deepSkyBlue, red);
+}
+
+.redBlueGreen{
+  background: linear-gradient( to right, red, deepSkyBlue, greenYellow);
+}
+
+.redYellow{
+  background: linear-gradient( to right, red, gold);
+}
+
+.bluePurpleGreenYellowRed{
+  background: linear-gradient( to right, deepSkyBlue, mediumOrchid, greenYellow, gold, red);
+}
+
+.redGreenYellow{
+  background: linear-gradient( to right, red, greenyellow, gold);
+}
+
+.yellowRed{
+  background: linear-gradient( to right, gold, red);
+}
+
+.redBlueYellow{
+  background: linear-gradient( to right, red, deepSkyBlue, gold);
+}
+
+.whiteRedGreen{
+  background: linear-gradient( to right, ivory, red, greenyellow);
+}
+
+.redGreenBlue{
+  background: linear-gradient( to right, greenyellow, red, deepSkyBlue);
+}
+
+.redBlueWhite{
+  background: linear-gradient( to right, red, blue, ivory);
+}
+
+.blueGreen{
+  background: linear-gradient( to right, deepSkyBlue, greenYellow);
+}
+
+.blueRedGreenYellow{
+  background: linear-gradient( to right, deepSkyBlue,red, greenYellow, gold);
+}
+
+.redYellowBlue{
+  background: linear-gradient( to right, red, gold, deepSkyBlue);
+}
+
+.greenYellowWhite{
+  background: linear-gradient( to right, greenyellow, gold, ivory);
+}
+
+.orangePink{
+  background: linear-gradient( to right, orange, pink);
+}
+
+.whiteRedYellow{
+  background: linear-gradient( to right, ivory, red, gold);
+}
+
+.greenBlueRed{
+  background: linear-gradient( to right, greenyellow, deepskyblue, red);
+}
+
+.orangeGreenRed{
+  background: linear-gradient( to right, orange, greenyellow, red);
+}
+
+.redOrangeWhiteGreen{
+  background: linear-gradient( to right, red, orange, ivory, greenyellow);
+}
+
+.greenRedYellowBluePurple{
+  background: linear-gradient( to right, greenyellow,red, gold,deepskyblue, mediumorchid);
+}
+
+.greenRedYellow{
+  background: linear-gradient( to right, greenyellow,red, gold);
+}
+
+.greenBlueWhite{
+  background: linear-gradient( to right, greenyellow, deepskyblue, ivory);
+}
+
+.redPurple{
+   background: linear-gradient( to right, red, mediumorchid);
+}
+
+.redOrangeGreen{
+     background: linear-gradient( to right, red, orange, yellowgreen);
+}
+
+.redWhiteBlueGreen{
+     background: linear-gradient( to right, red, ivory, deepskyblue, yellowgreen);
+}
+
+.greenYellowWhiteBlue {
+  background: linear-gradient( to right, yellowgreen, gold, ivory, deepskyblue);
+}
